@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- id của item trùng id destination trong nav_graph để NavigationUI tự liên kết -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/homeFragment" android:icon="@drawable/ic_home" android:title="@string/nav_home" />
+    <item android:id="@+id/transactionsFragment" android:icon="@drawable/ic_list" android:title="@string/nav_transactions" />
+    <item android:id="@+id/statsFragment" android:icon="@drawable/ic_chart" android:title="@string/nav_stats" />
+    <item android:id="@+id/settingsFragment" android:icon="@drawable/ic_settings" android:title="@string/nav_settings" />
+</menu>

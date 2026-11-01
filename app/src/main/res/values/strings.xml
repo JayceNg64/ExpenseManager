@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ví Chi Tiêu</string>
+
+    <!-- Điều hướng -->
+    <string name="nav_home">Tổng quan</string>
+    <string name="nav_transactions">Giao dịch</string>
+    <string name="nav_stats">Thống kê</string>
+    <string name="nav_settings">Cài đặt</string>
+    <string name="title_add">Thêm giao dịch</string>
+    <string name="title_edit">Sửa giao dịch</string>
+    <string name="title_currency">Quy đổi ngoại tệ</string>
+
+    <!-- Tổng quan -->
+    <string name="month_label">Tháng %1$s</string>
+    <string name="balance">Số dư trong tháng</string>
+    <string name="income">Thu nhập</string>
+    <string name="expense">Chi tiêu</string>
+    <string name="budget">Ngân sách tháng</string>
+    <string name="budget_percent">%1$d%%</string>
+    <string name="budget_detail">Đã chi %1$s / %2$s</string>
+    <string name="recent">Giao dịch gần đây</string>
+    <string name="empty_month">Chưa có giao dịch nào trong tháng này.\nNhấn + để thêm.</string>
+    <string name="currency_shortcut">Tỷ giá</string>
+    <string name="share_report">Chia sẻ báo cáo</string>
+    <string name="share_title">Báo cáo chi tiêu tháng %1$s</string>
+    <string name="prev">Tháng trước</string>
+    <string name="next">Tháng sau</string>
+
+    <!-- Danh sách -->
+    <string name="search_hint">Tìm theo ghi chú, danh mục…</string>
+    <string name="empty_list">Không có giao dịch phù hợp</string>
+    <string name="no_note">(Không có ghi chú)</string>
+    <string name="deleted">Đã xóa giao dịch</string>
+    <string name="undo">Hoàn tác</string>
+
+    <!-- Thêm / sửa -->
+    <string name="type_expense">Khoản chi</string>
+    <string name="type_income">Khoản thu</string>
+    <string name="amount">Số tiền (₫)</string>
+    <string name="category">Danh mục</string>
+    <string name="date">Ngày</string>
+    <string name="note">Ghi chú</string>
+    <string name="receipt">Ảnh hóa đơn</string>
+    <string name="take_photo">Chụp ảnh hóa đơn</string>
+    <string name="remove_photo">Xóa ảnh</string>
+    <string name="save">Lưu</string>
+    <string name="cancel">Hủy</string>
+    <string name="delete">Xóa</string>
+    <string name="confirm_delete_title">Xóa giao dịch?</string>
+    <string name="confirm_delete_msg">Giao dịch này sẽ bị xóa vĩnh viễn.</string>
+    <string name="error_amount">Vui lòng nhập số tiền lớn hơn 0</string>
+    <string name="error_amount_too_large">Số tiền quá lớn</string>
+    <string name="error_category">Vui lòng chọn danh mục</string>
+    <string name="camera_denied">Cần cấp quyền Camera để chụp hóa đơn</string>
+
+    <!-- Thống kê -->
+    <string name="total_expense">Tổng chi: %1$s</string>
+    <string name="by_category">Theo danh mục</string>
+    <string name="by_day">Chi tiêu theo ngày (nghìn ₫)</string>
+    <string name="thousand_vnd">Nghìn ₫</string>
+    <string name="no_data">Chưa có dữ liệu</string>
+
+    <!-- Cài đặt -->
+    <string name="monthly_budget">Hạn mức chi tiêu tháng</string>
+    <string name="hint_budget">Ví dụ: 3000000</string>
+    <string name="not_set">Chưa đặt</string>
+    <string name="dark_mode">Chế độ tối</string>
+    <string name="daily_reminder">Nhắc ghi chi tiêu hằng ngày</string>
+    <string name="reminder_time">Giờ nhắc</string>
+    <string name="test_notify">Gửi thử thông báo</string>
+    <string name="notify_sent">Đã gửi thông báo thử</string>
+    <string name="section_general">Chung</string>
+    <string name="section_notify">Thông báo</string>
+    <string name="about">Bài tập lớn môn Phát triển ứng dụng cho thiết bị di động — Đại học Bách khoa Hà Nội. Phiên bản 1.0</string>
+
+    <!-- Tỷ giá -->
+    <string name="foreign_amount">Số tiền ngoại tệ</string>
+    <string name="currency">Loại tiền</string>
+    <string name="convert">Quy đổi sang VND</string>
+    <string name="rate_line">1 %1$s = %2$s ₫</string>
+    <string name="updated_at">Cập nhật: %1$s</string>
+    <string name="error_no_network">Không có kết nối mạng. Vui lòng kiểm tra Wi-Fi hoặc dữ liệu di động.</string>
+    <string name="error_api">Không lấy được tỷ giá: %1$s</string>
+    <string name="result">Kết quả</string>
+
+    <!-- Thông báo -->
+    <string name="channel_reminder">Nhắc nhở hằng ngày</string>
+    <string name="channel_reminder_desc">Nhắc bạn ghi lại chi tiêu mỗi ngày</string>
+    <string name="channel_budget">Cảnh báo ngân sách</string>
+    <string name="channel_budget_desc">Báo khi chi tiêu vượt hạn mức tháng</string>
+    <string name="reminder_title">Bạn đã ghi chi tiêu hôm nay chưa?</string>
+    <string name="reminder_text_empty">Hôm nay bạn chưa ghi khoản nào. Chạm để thêm ngay!</string>
+    <string name="reminder_text_count">Hôm nay bạn đã ghi %1$d khoản. Còn khoản nào chưa ghi không?</string>
+    <string name="budget_alert_title">⚠️ Vượt hạn mức chi tiêu!</string>
+    <string name="budget_alert_text">Tháng này bạn đã chi %1$s, vượt hạn mức %2$s.</string>
+</resources>

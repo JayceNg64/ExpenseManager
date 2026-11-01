@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- Thư mục Pictures riêng của ứng dụng, chứa ảnh hóa đơn -->
+    <external-files-path name="receipts" path="Pictures/" />
+</paths>
